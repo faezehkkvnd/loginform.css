@@ -1,0 +1,84 @@
+@font-face {
+    font-family: B Koodak Bold_0;
+    src: url(./assets/fonts/B-Koodak/B\ Koodak\ Bold_0.ttf);
+}
+
+.content-area {
+    display: flex;
+    flex-direction: row;
+    padding: 200px;
+    justify-content: center;
+    direction: rtl;
+    font-family: B Koodak Bold_0;
+    color: dimgray;
+}
+
+.login-form {
+    min-width: 300px;
+    max-width: 300px;
+    padding: 0 50px 0 0;
+
+}
+
+.title-login,
+.title-signup {
+    font-size: 25px;
+    margin-bottom: 0;
+
+}
+
+.login-form label,
+.signup-form label {
+    font-size: 15px;
+}
+
+.login-button,
+.login-button a,
+.signup-button,
+.signup-button a {
+    width: 60px;
+    height: 30px;
+    border-radius: 7px;
+    border-color: rgb(111, 121, 184);
+    background-color: rgb(111, 121, 184);
+    color: #fff;
+    text-decoration: none;
+}
+.forgot-password{
+    text-decoration: none;
+    color: #575656;
+
+}
+.forgot-password:hover{
+    color:burlywood
+}
+
+.signup-form {
+    border-right: 1px solid rgba(182, 176, 176, 0.493);
+    padding: 0 50px;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.email-login-input,
+.password-login-input,
+.email-signup-input,
+.name-input,
+.password-signup-input {
+    width: 250px;
+    height: 20px;
+    border-color: #ececec;
+}
+.description{
+    font-size: 13px;
+}
+.laws,
+.laws a {
+    text-decoration: none;
+    color: #575656;
+    font-size: 15px;
+    text-align: center;
+}
+.laws a:hover{
+    color: burlywood;
+}
